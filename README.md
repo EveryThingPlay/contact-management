@@ -1,24 +1,22 @@
 # contact-management
+Небольшое приложение для управления контактами
 
-## Project setup
+## Установка зависимостей
 ```
-pnpm install
-```
-
-### Compiles and hot-reloads for development
-```
-pnpm run serve
+pnpm i
 ```
 
-### Compiles and minifies for production
+### Запуск среды разработки
 ```
-pnpm run build
-```
-
-### Lints and fixes files
-```
-pnpm run lint
+pnpm serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Сборка
+```
+pnpm build
+```
+
+### Линт и авто-фикс файлов
+```
+pnpm lint
+```
